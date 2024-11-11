@@ -140,7 +140,7 @@
         let timer;
         let isTestRunning = false;
         let randomWords = [];
-        const wordCount = 15; // Số từ cần hiển thị
+        const wordCount = Math.floor(Math.random() * (20 - 15)) + 15; // Số từ cần hiển thị
 
         // Lấy danh sách từ ngẫu nhiên
         function getRandomWords() {
